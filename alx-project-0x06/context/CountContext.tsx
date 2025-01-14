@@ -8,6 +8,10 @@ import {
 } from '@/store/store'
 
 const CounterApp: React.FC = () => {
+  // [
+  //   'const count = useSelector((state: RootState) => state.counter.value)',
+  //   'const dispatch: AppDispatch = useAppDispatch(',
+  // ]
   const count = useSelector((state: RootState) => state.counter.value)
   const dispatch: AppDispatch = useAppDispatch()
 
